@@ -1,0 +1,122 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+a{
+    text-decoration: none;
+}
+header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #ff9d0a;
+    padding: 20px 10px;
+    font-size: 35px;
+}
+header a {
+    color: #212121;
+    padding: 12px;
+    font-size: 18px;
+    border-radius: 4px;
+}
+
+header a.current, a:hover {
+    background-color: #ffd60a;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+}
+.container{
+    width: 100%;
+    max-width: 1400px;
+    margin: 10px;
+}
+
+.edit{
+    display: inline-block;
+    font-weight: bold;
+    color: #444444;
+    text-decoration: none;
+    user-select: none;
+    padding: .2em 1.2em;
+    outline: none;
+    border: 1px solid rgba(0,0,0,.1);
+    border-radius: 2px;
+    background: #FFDEAD;
+    transition: all .218s ease 0s;
+}
+.store{
+    display: flex;
+    align-items: center;
+    font-size: 35px;
+    text-align: center;
+}
+
+.tab{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.tab a{
+    color: #212121;
+    padding: 12px;
+    font-size: 20px;
+    border-radius: 5px;
+}
+.tab a:hover {
+    background-color: #ffd60a;
+}
+
+table {
+    border-spacing: 0 10px;
+    font-weight: bold;
+}
+th {
+    padding: 10px 20px;
+    background: #56433D;
+    color: #F9C941;
+    border-right: 2px solid;
+    font-size: 0.9em;
+}
+th:first-child {
+    text-align: left;
+}
+
+td {
+    vertical-align: middle;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    border-top: 2px solid #ffd60a;
+    border-bottom: 2px solid #ffd60a;
+    border-right: 2px solid #ffd60a;
+}
+td:first-child {
+    border-left: 2px solid #ffd60a;
+    border-right: none;
+}
+td:nth-last-child(-n+2) {
+    border-right: none;
+    border-top: none;
+    border-bottom: none;
+}
+
+.card a, table a {
+    font-weight: bold;
+    color: #56433D;
+}
+.card:after{
+    content: "";
+    display: block;
+    width: 500px;
+    height: 2px;
+    background-color: #e6e2e2;
+    margin-top: 10px;
+}
+
+
