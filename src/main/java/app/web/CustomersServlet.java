@@ -51,7 +51,7 @@ public class CustomersServlet extends HttpServlet {
             customers.setName(name);
         }
         String username = request.getParameter("username");
-        if (name != null) {
+        if (username != null) {
             customers.setUsername(username);
         }
         String address = request.getParameter("address");
